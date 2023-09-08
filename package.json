@@ -1,0 +1,25 @@
+{
+  "name": "@wondermarin/prettier-config",
+  "version": "1.0.0",
+  "description": "Personal Prettier config.",
+  "author": "Wondermarin",
+  "license": "MIT",
+  "private": false,
+  "homepage": "https://github.com/wondermarin/prettier-config",
+  "repository": "github:wondermarin/prettier-config",
+  "main": "configs/base.json",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": "./configs/base.json"
+  },
+  "sideEffects": false,
+  "files": [
+    "configs"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "prettier": ">=3"
+  }
+}
